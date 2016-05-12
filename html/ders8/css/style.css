@@ -1,0 +1,91 @@
+body{
+
+ height: 1000px;
+background-color:grey;
+/*background-image: url('../img/a2.gif');*/
+background-position: left top;
+background-repeat: no-repeat;
+}
+/*.ucbucaq{
+	width: 0;
+	height:0;
+	border-style: solid;
+	border-width:0px 20px 50px 30px ;
+	
+	border-color:transparent transparent transparent  blue ;
+}
+.siyahi .a{
+	background-color: red;
+	margin-top: 10px;
+	height:35px;
+	color: blue;
+
+}
+.siyahi .b{
+	background-color: blue;
+	margin-top: 10px;
+	height:35px;
+	color:white;
+}
+.siyahi .c{
+	background-color: red;
+	margin-top: 10px;
+	height:35px;
+	color:white;
+}
+.siyahi .d{
+	background-color:blue;
+	margin-top: 10px;
+	height:35px;
+	color:white;
+}
+.siyahi{
+	list-style-type: none;
+	width: 100px;
+	*/
+.esas{
+	border:1px solid black;
+}
+
+ul:first-child li{
+color:red;
+}
+ul:first-child ul  li:first-child{
+	color:yellow;
+	border:none;
+}
+ul:first-child ul  li{
+	color:blue;
+	border:1px solid green;
+	}
+
+ul:nth-child(2) li{
+
+color:red;
+}
+ul:nth-child(2) ul li:first-child{
+color:yellow;
+border:none;
+}
+
+ul:nth-child(2) ul li{
+	color:blue;
+	border:1px solid green;
+}
+
+ul:last-child li{
+	color:red;
+
+}
+ul:last-child ul li:first-child{
+	color:yellow;
+	border:none;
+}
+
+ul:last-child ul li{
+	color:blue;
+	border:1px solid green;
+}
+ul{
+	list-style-type: none;
+}

@@ -1,0 +1,60 @@
+body{
+	
+	font-family: 'Clicker Script', cursive;
+}
+/*div{
+	position: absolute;
+	top:100px;
+	left: 300px;
+	height: 500px;
+	padding: 20px;
+	background: white;
+	text-align: justify;
+	z-index: -1;
+
+}
+.dexlisiz:after{
+	content: "/a";
+	position: relative;
+	display: block;
+	top: 10px;
+	left: -70px;
+	width:0px;
+	height: 0px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-right: 25px solid white;
+	border-left: 25px solid transparent;
+	z-index: 1;
+
+}*/
+.a{
+	height: 250px;
+	width: 300px;
+	border:1px solid red;
+	background: red
+}
+.a:hover {
+	background: brown;
+
+}
+.a:hover .b{
+	background: red;
+}
+.b{
+	height: 100px;
+	width: 100px;
+	border:1px solid black;
+	display: inline-block;
+	background: gray
+}
+.c{
+	height: 100px;
+	width: 100px;
+	border:1px solid black;
+	display: inline-block;
+	background: yellow;
+}
+.b:hover+.c{
+	background: black;
+}

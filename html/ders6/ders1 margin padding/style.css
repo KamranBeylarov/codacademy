@@ -1,0 +1,39 @@
+body{
+width: 100%;
+}
+
+.menu ul{
+ list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #333;
+	background:#F9D54B;
+	padding: 10px;
+}
+.menu ul li a:hover{
+	background: #ffdf80
+	padding:15px;
+	font-size: 20px;
+}
+.menu ul li .active{
+	background: blue;
+}
+.sekil{
+	position: absolute;
+	width: 500px;
+	left:80px;
+}
+.sekil .basliq{
+	width: 60%;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	background-color: rgba(249,213,1,0.3);
+}
+.sekil .basliq h3{
+	text-align: center;
+}

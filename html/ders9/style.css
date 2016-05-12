@@ -1,0 +1,32 @@
+.yumru{
+	border-radius: 100%;
+	background-color:green;
+	width: 100px;
+	height: 100px;
+
+ position: relative;
+    -webkit-animation-name: yumru; 
+    -webkit-animation-duration: 1s; 
+    animation-name: yumru;
+    animation-duration: 0.001s;
+     animation-iteration-count:	infinite;
+}
+@-webkit-keyframes yumru{
+ 0%   	{background-color:red; left:0px; top:100x;}
+   20%  {background-color:yellow; left:100px; top:100px;}
+   40%  {background-color:blue; left:200px; top:100px;}
+  60%	{background-color:blue; left:300px; top:100px;}
+   80%	 {background-color:red; left:400px; top:100px;}
+    100% {background-color:red; left:500px; top:100px;}
+}
+
+
+
+   @keyframes yumru{
+ 0%   {background-color:red; left:0px; top:0px;}
+   20%  {background-color:yellow; left:100px; top:100px;}
+   40%  {background-color:blue; left:200px; top:0px;} 
+   	60%	{background-color:blue; left:300px; top:100px;}
+   	80%	 {background-color:red; left:400px; top:0px;}
+   	100% {background-color:red; left:500px; top:100px;}
+}

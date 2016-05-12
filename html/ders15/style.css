@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x:hidden;
+}
+.dexlisiz{
+	height: 90px;
+}
+ .new{
+	text-align: center;
+	padding:5px;
+
+}
+	
+.tour li {
+	display: inline;
+	padding: 10px;
+}
+.btn .btn-primary .get{
+	border-radius:50px;
+}
+.menu{
+	margin-top: 30px;
+	padding: 0;
+}
+
+.what{
+	background-image: url('image/header1.jpg');
+	background-size: cover;
+}
+
+
+}
+.what div.iphone{
+	    margin-top: 75px;
+    height: 476px;
+	overflow: hidden;
+}
+.real{
+	
+	display:block;
+}
+.asd{
+	padding:10px;
+	margin-top:20px;
+	color:blue;
+}
+.iphone1{
+	width: 100%;
+}
+.yourday{
+	text-align: left;
+}
+.map{
+	width: 100%;
+	height: 312px;
+}
+.evernote{
+	color:red;
+}
+.beaut{
+	text-align: center;
+	padding:10px;
+}
+.tel{
+	width: 20%;
+}
+.tel img{
+	width: 100%;
+}
+#tel0{
+	display: flex;
+	align-content: flex-start;
+
+}
+#tel0 div :hover{
+-moz-box-shadow: 0 0 10px #202226;
+-webkit-box-shadow: 0 0 10px #202226;
+		box-shadow: 0 0 10px #202226;
+	
+}
+.smart{
+	text-align: center;
+}
+.carusel{
+	width: 70px;
+	margin-left: 50px;
+
+}
+.choose{
+	background: #F5F5F0;
+}
+.carusel{
+	opacity: 0.4;
+}
+.carusel:hover{
+	opacity: 1;
+}
+.choose div .starter1{
+	width: 25%;
+	height:420px;
+	
+	margin-top: -10px;
+	background-color: white;
+	box-shadow: 10px 10px 10px darkgray;
+}
+
+.choose div .starter{
+	width: 25%;
+	height:400px;
+
+	background-color: darkgray;
+
+}
+div .providence{
+
+}
+button .p{
+	font-size: 8px;
+}
+button .h{
+	font-size: 13px;
+	margin-top: -10px;
+	margin-bottom: -3px;
+}
+.icon i{
+	color: gray;
+	margin-left: 10px;
+}
+.dexlisiz1{
+	height: 18px;
+}
